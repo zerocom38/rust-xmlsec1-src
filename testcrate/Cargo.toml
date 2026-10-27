@@ -1,0 +1,12 @@
+[package]
+name = "testcrate"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+libxml = "0.3.22"
+openssl-sys = "0.9.117"
+
+[build-dependencies]
+xmlsec1-src = { path = ".." }

@@ -1,0 +1,3 @@
+[submodule "xmlsec"]
+	path = xmlsec
+	url = https://github.com/lsh123/xmlsec.git
